@@ -7,7 +7,7 @@
 // Trie node structure
 struct TrieNode {
     struct TrieNode *children[ALPHABET_SIZE];
-    int count; // Count of occurrences
+    int count; 
 };
 
 // Creates a new trie node
